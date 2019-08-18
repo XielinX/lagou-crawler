@@ -1,5 +1,7 @@
 package Crawler;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import sun.awt.OSInfo;
 
 import java.util.List;
@@ -61,16 +63,16 @@ public class LagouCrawler {
 	/**
 	 * 根据操作系统类型读取配置文件
 	 */
-	private static void initPropertites(){
+	private static void initProperties(){
 		switch (OSInfo.getOSType()){
 			case WINDOWS:
-				System.setProperty("webdriver.chrome.driver",LagouCrawler.class.getResource("chromedriver_win32.exe").getPath());
+				System.setProperty("webdriver.chrome.driver",LagouCrawler.class.getClassLoader().getResource("chromedriver_win32.exe").getPath());
 				break;
 			case MACOSX:
-				System.setProperty("webdriver.chrome.driver",LagouCrawler.class.getResource("chromedriver_mac64").getPath());
+				System.setProperty("webdriver.chrome.driver",LagouCrawler.class.getClassLoader().getResource("chromedriver_mac64").getPath());
 				break;
 			case LINUX:
-				System.setProperty("webdriver.chrome.driver",LagouCrawler.class.getResource("chromedriver_linux64").getPath());
+				System.setProperty("webdriver.chrome.driver",LagouCrawler.class.getClassLoader().getResource("chromedriver_linux64").getPath());
 				break;
 			default:
 				System.out.println("当前仅支持的操作系统类型为:Linux/MacOS/Windows");
@@ -81,7 +83,14 @@ public class LagouCrawler {
 
 
 	public static void main(String[] args) {
-		
+
+		// 1.设置环境
+		initProperties();
+		//2获取web驱动(谷歌浏览器)
+		WebDriver webDriver = new ChromeDriver();
+		//进入网址
+		webDriver.get("https://www.lagou.com/zhaopin/Java/?labelWords=label");
+
 	}
 
 }
