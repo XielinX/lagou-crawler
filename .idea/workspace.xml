@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db7ae33f-8c6d-4e5e-bbdb-ac17b1f71f64" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Crawler/Crawler1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Crawler/LagouCrawler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Crawler/LagouCrawler.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Crawler/LagouCrawler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="203" column="73" selection-start-line="203" selection-start-column="21" selection-end-line="203" selection-end-column="73" />
+            <state relative-caret-position="254">
+              <caret line="141" column="12" lean-forward="true" selection-start-line="141" selection-start-column="12" selection-end-line="141" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#493#501#0" expanded="true" />
@@ -226,25 +225,24 @@
       <updated>1566052124443</updated>
       <workItem from="1566052125610" duration="2003000" />
       <workItem from="1566057189414" duration="1326000" />
-      <workItem from="1566096497626" duration="14484000" />
+      <workItem from="1566096497626" duration="15137000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17813000" />
+    <option name="totallyTimeSpent" value="18466000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25808626" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25808626" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.32876712" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -285,8 +283,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Crawler/LagouCrawler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="203" column="73" selection-start-line="203" selection-start-column="21" selection-end-line="203" selection-end-column="73" />
+        <state relative-caret-position="254">
+          <caret line="141" column="12" lean-forward="true" selection-start-line="141" selection-start-column="12" selection-end-line="141" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#493#501#0" expanded="true" />

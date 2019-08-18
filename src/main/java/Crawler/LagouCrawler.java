@@ -131,7 +131,7 @@ public class LagouCrawler {
 	}
 
 	/**
-	 * 获取不同薪资阶段的公司
+	 * 获取薪资和公司
 	 *
 	 * @param driver 驱动
 	 * @param map    Map
